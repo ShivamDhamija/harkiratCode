@@ -1,0 +1,70 @@
+/* Form.css */
+
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-container h1,
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.form-container button[type="submit"],
+.form-container button[type="button"],
+.cancel,
+.update {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.form-container button[type="submit"]:hover,
+.form-container button[type="button"]:hover,
+.update:hover {
+  background-color: #45a049;
+}
+
+.cancel {
+  background-color: #f44336;
+}
+
+.cancel:hover {
+  background-color: #d32f2f;
+}
+
+.centered-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  text-align: center;
+}

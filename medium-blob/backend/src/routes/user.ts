@@ -33,7 +33,7 @@ userRoute.post("/signup", async (c) => {
     return c.json({ message: "error came while signing up" });
   }
 });
-userRoute.post("/sigin", async (c) => {
+userRoute.post("/signin", async (c) => {
   try {
     const prisma = new PrismaClient({
       datasourceUrl: c.env?.DATABASE_URL,
